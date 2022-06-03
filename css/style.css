@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+
+#section-title{
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+#team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 150px;
+    /* border: solid 1px green; */
+}
+
+.card{
+    width: 28%;
+    margin-bottom: 20px;
+    /* border: 1px black solid; */
+}
+
+.card-pic{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.card-pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* border-radius: 50%; */
+
+}
+
+.card p{
+    text-align: center;
+}
+
+.card-name{
+    font-size: 24px;
+}
+
+.card-role{
+    font-style: italic;
+    color: gray;
+    
+}
